@@ -68,7 +68,7 @@ body::before {
 }
 
 .selecaoPersonagem .listaPersonagem .personagem {
-    border: #9c9013 solid 0.25rem;
+    border: #9c9013 solid 0.4rem;
     border-radius: 1rem;
 }
 
@@ -92,7 +92,8 @@ body::before {
 }
 
 .listaPersonagem .personagem img {
-    border-radius: 1rem;
+    margin: -0.05rem;
+    border-radius: 0.75rem;
     height: 190px;
     width: 125px;
     cursor: pointer;
