@@ -68,7 +68,7 @@ body::before {
 }
 
 .selecaoPersonagem .listaPersonagem .personagem {
-    border: #9c9013 solid 0.4rem;
+    border: #9c9013 solid 0.40rem;
     border-radius: 1rem;
 }
 
@@ -111,13 +111,13 @@ body::before {
 .personagemSelecionado {
     display: flex;
     flex-direction: column;
-    max-height: 800px;
+    max-height: 1000px;
 }
 
 .personagemSelecionado .bannerPersonagem {
     height: 450px;
     width: 300px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
 }
 
 .personagemSelecionado .nomePersonagem {
