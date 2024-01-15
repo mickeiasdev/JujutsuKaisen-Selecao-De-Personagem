@@ -1,0 +1,52 @@
+@media (max-width: 1300px) {
+    body::before {
+        content: "";
+        background-image: linear-gradient(
+                to top,
+                rgba(65, 65, 0, 0.25),
+                rgba(0, 0, 0, 0)
+            ),
+            url(../background/bg6_50.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 205%;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.5;
+    }
+
+    .cabecalho .logo {
+        min-width: 150px;
+        max-width: 200px;
+    }
+
+    .selecaoPersonagem {
+        flex-direction: column-reverse;
+        max-width: 90vw;
+        margin: 5rem auto;
+    }
+
+    .personagens {
+        margin-top: 5rem;
+    }
+
+    .selecaoPersonagem .personagens .titulo,
+    .selecaoPersonagem .personagemSelecionado .nomePersonagem {
+        font-size: 1rem;
+    }
+
+    .selecaoPersonagem .informacoesPersonagem {
+        margin: 0 auto;
+    }
+
+    .descricaoPersonagem {
+        min-width: auto;
+        max-width: 90vw;
+    }
+
+    .selecaoPersonagem .listaPersonagem {
+        gap: 1.5rem;
+    }
+}
