@@ -29,17 +29,15 @@
         margin: 5rem auto;
     }
 
-    .personagens {
-        margin-top: 5rem;
-    }
-
     .selecaoPersonagem .personagens .titulo,
     .selecaoPersonagem .personagemSelecionado .nomePersonagem {
         font-size: 1rem;
     }
 
-    .selecaoPersonagem .informacoesPersonagem {
+    .informacoesPersonagem {
         margin: 0 auto;
+        position: relative;
+        z-index: 10;
     }
 
     .descricaoPersonagem {
