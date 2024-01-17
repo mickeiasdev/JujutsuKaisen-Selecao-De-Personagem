@@ -1,4 +1,4 @@
-# Jujutsu Kaisen - Que personagem e esse?
+# Jujutsu Kaisen - Que personagem é esse?
 
 
 - Selecione um personagem e veja sua historia no anime.
